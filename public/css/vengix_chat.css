@@ -4,7 +4,7 @@
 	position:relative;
 	padding:5px 10px;
 	color:red; 
-	background: linear-gradient(#c31432,#240b36);
+	background:linear-gradient(#c31432,#240b36);
 	border-radius:25px;
 	float: right;
 		
@@ -36,7 +36,7 @@
 .from-them {
 	position:relative;
 	padding:10px 20px;
-	background:#E5E5EA;
+	background:linear-gradient(#c31432,#240b36);
 	border-radius:25px;
 	color: black;
   float: left;
