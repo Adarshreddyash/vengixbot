@@ -1,10 +1,32 @@
+body {
+	font-family: "Helvetica Neue";
+	font-size: 20px;
+	font-weight: normal;
+}
+
+section {
+	max-width: 450px;
+	margin: 50px auto;
+
+	div {
+		max-width: 255px;
+		word-wrap: break-word;
+		margin-bottom: 12px;
+    line-height: 24px;
+    &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+	}
+}
 
 .clear {clear: both}
 .from-me {
 	position:relative;
-	padding:5px 10px;
-	color:red; 
-	background:linear-gradient(#c31432,#240b36);
+	padding:10px 20px;
+	color:white; 
+	background:#0B93F6;
 	border-radius:25px;
 	float: right;
 		
@@ -27,8 +49,8 @@
 		bottom:-2px;
 		right:-56px;
 		width:26px;
-		height:10px;
-		background:red;
+		height:20px;
+		background:white;
 		border-bottom-left-radius: 10px;
 		-webkit-transform:translate(-30px, -2px);
 	}
@@ -36,7 +58,7 @@
 .from-them {
 	position:relative;
 	padding:10px 20px;
-	background:linear-gradient(#c31432,#240b36);
+	background:#E5E5EA;
 	border-radius:25px;
 	color: black;
   float: left;
